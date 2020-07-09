@@ -127,7 +127,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Django.tex', u'Dajngo Documentation',
+    (master_doc, 'SCMFDP.tex', u'Dajngo Documentation',
      u'author here', 'manual'),
 ]
 
@@ -137,7 +137,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'Django', u'Django Documentation',
+    (master_doc, 'scmfdp', u'Django Documentation',
      [author], 1)
 ]
 
@@ -148,7 +148,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Django', u'Django Documentation',
+    (master_doc, 'SCMFDP', u'Django Documentation',
      author, 'Django', 'One line description of project.',
      'Miscellaneous'),
 ]
