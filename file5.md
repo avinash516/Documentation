@@ -81,6 +81,7 @@
   
   * After installing to check the version of Django Framework.
     ```
+    
        cmd>django-admin --version
                  (or)
        cmd>python
