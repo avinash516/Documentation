@@ -14,7 +14,7 @@
 ### Django Template Configuration
 
 <p>To Configure the template system we have to provide some entries in settings.py file.</p>
-<img src="Images1/Templates.PNG" alt="Templates"
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/Images1/Templates.PNG" alt="Templates"
      width="600"/>
 <p>Here, we mentioned that our template directory name is templates. By default, DjangoTemplates looks for a templates subdirectory in each of the INSTALLED_APPS.</p>
 
@@ -26,11 +26,11 @@
 
 <p> First create a Folder <b>Templates</b> inside the project app i.e firstapp.</p> 
 
-<img src="Images1/templatefoldercreation.PNG" alt="Templates" width="600" />
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/Images1/templatefoldercreation.PNG" alt="Templates" width="600" />
 
 <p> Create a folder inside templates i.e <b>firstapp</b> inside firstapp create <b>index.html</b></p>
 
-<img src="Images1/creating_template(1).PNG" alt="Templates" width="600" />
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/Images1/creating_template(1).PNG" alt="Templates" width="600" />
 
 <p>After creating a template we have to write a code in index.html.</p>
 
@@ -75,7 +75,7 @@ def index(request):
 
 <p>The output will appears like this</p>
 
-<img src="Images1/output.PNG" alt="Templates" width="600" />
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/Images1/output.PNG" alt="Templates" width="600" />
 
 <p> In that ouput we can see that at top of the page we have the title i.e <b>My Project</b> and also body part which we have written in the <b>index.html</b> page.</p>
 
