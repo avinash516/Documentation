@@ -116,7 +116,7 @@ urlpatterns = [
 
 #### 7. Run the server and check in browser will get an form for entering details to send an email as shown below
 
-![Github Image](https://github.com/MVGopi/Email_Sending_Django/blob/master/email_form.JPG)
+![Github Image](https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/email_form.JPG)
 
 
 #### 8. Enter information to send an email in the form and click on send, So that your email is sent successfully
