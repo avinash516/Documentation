@@ -58,7 +58,7 @@ Now that we’ve created the form, it’s time to add it to the database. To do 
 -	python manage.py migrate
 Your terminal output should look something like this:
 
-<img src="docmi.JPG">
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/docmi.JPG">
 
 ### Views
 **`views.py`**
@@ -146,7 +146,7 @@ Now open browser and type url path
 	https:localhost:8000
 ```
 
-<img src ="home.JPG">
+<img src ="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/home.JPG">
 
 
 
@@ -203,7 +203,7 @@ is_valid() validates the form details given by visitor
 	</form>
 {% endblock%} 
 ```
-<img src ="signin.JPG">
+<img src ="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/signin.JPG">
 
 **`signout.html`**
 
@@ -215,8 +215,8 @@ is_valid() validates the form details given by visitor
 ```
 before signout window.
 
-<img src ="signout.JPG">
+<img src ="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/signout1.JPG">
 
 after signout window.
 
-<img src ="signout1.JPG">
+<img src ="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/signout1.JPG">
