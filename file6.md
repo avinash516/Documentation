@@ -20,7 +20,7 @@
 
 <p>we have to install some apps before the starting the project and created app name  must be placed in Installed_Apps.</p>
 
-<img src="Images1/Installedapps.PNG" alt="Templates" width="600"  />
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/Images1/Installedapps.PNG" alt="Templates" width="600"  />
 
 ### Django Templates Creation Procedure
 
