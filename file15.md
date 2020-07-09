@@ -46,7 +46,7 @@ templates/appnanme/base.html
 ````
 **Inside base.html apply with Code**
 
-<img src="base.png" height=300px; width=900px;>
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/base.png" height=300px; width=900px;>
 
 ____
 
@@ -97,7 +97,7 @@ ____
 
 * Inside header.html apply code [navbar](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp)
 
-<img src="nav.png" height=300px; width=900px;>
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/include.png" height=300px; width=900px;>
 
 ## extends – Django Template Tags
 
@@ -116,7 +116,7 @@ ____
 
 **create home.html template**
 
-<img src="home.png" height=300px; width=900px;>
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/home.png" height=300px; width=900px;>
 
 
 **urls.py**
@@ -134,7 +134,7 @@ def home(request):
 ## Run Server
 * Execute the following command and access the template by entering localhost:8000/home at the browser.
 
-<img src="homepages.png" height=300px; width=900px;>
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/homepages.png" height=300px; width=900px;>
 
 
 **Variables**
@@ -174,7 +174,7 @@ def index(request):
 
 ## output
 
-<img src ="vars.png"  height=300px; width=900px;>
+<img src ="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/vars.png"  height=300px; width=900px;>
 
 
 ## Static Contact Details
@@ -221,7 +221,7 @@ def contact(request):
 
 ## output
 
-<img src ="contacts.png"  height=300px; width=900px;>
+<img src ="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/contacts.png"  height=300px; width=900px;>
 
 ____
 
@@ -235,7 +235,7 @@ path('about/',views.about,name="about")
 
 ## output
 
-<img src ="about.png"  height=300px; width=900px;>
+<img src ="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/about.png"  height=300px; width=900px;>
 
 ____
 
