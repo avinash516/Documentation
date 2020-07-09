@@ -29,13 +29,13 @@ Majority of applications on the internet are CRUD applications. For example – 
 Then enter the following command
 
                  django-admin startproject projectname
-   <img src = "images2/projectcreation.PNG">
+   <img src = "https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/images2/projectcreation.PNG">
 
 * After the creation of project enter into the directory where manage.py file is present.
 * Then for creating the app give the following command in command prompt,
             
                  python manage.py startapp appname
-   <img src = "images2/appcreation.PNG">
+   <img src = "https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/images2/appcreation.PNG">
                  
    Now, all the required setups are complete. We can proceed further.
    
@@ -70,7 +70,7 @@ Then enter the following command
               def __str__(self):
                   return self.field_name
        
-     <img src = "images2/model.PNG">
+     <img src = "https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/images2/models.PNG">
   
  ### 3. Creating the Model Form:
  * Form is a python file.
@@ -93,7 +93,7 @@ For this reason, Django provides a helper class which allows us to create a Form
           
                   admin.site.register(Register)
                
-   <img src = "images2/admin.PNG">
+   <img src = "https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/images2/admin.PNG">
 
 ### 5. Making View Functions for Django CRUD App :
 * The view functions are our actual CRUD operations in Django.The entire operation will be defined in this views.py.
@@ -252,7 +252,7 @@ For this reason, Django provides a helper class which allows us to create a Form
 			    path('crud/',include('crud.urls')),
 
 				]
-    <img src = "images2/mainurls.PNG">
+    <img src = "https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/images2/mainurls.PNG">
 				
 * Now in our app we have to create a urls.py file,and in that file we have to add the html files path.
 			
@@ -266,7 +266,7 @@ For this reason, Django provides a helper class which allows us to create a Form
 				path('delete/<int:id>',views.delete,name='delete'),
 
 				]
-   <img src = "images2/urls.PNG">
+   <img src = "https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/images2/urls.PNG">
 
 ### 8. Migrating the files with Django and running the server :
 * Till now we done all the required files and all ,now we have to migrate these files with the django server.for that we have to enter the followng command in command prompt,
@@ -285,20 +285,20 @@ For this reason, Django provides a helper class which allows us to create a Form
 
 #### Registration Page:
 * url link = http://127.0.0.1:8000/crud/register/
-<img src = "images2/registeroutput.PNG">
+<img src = "https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/images2/registeroutput.PNG">
 
 #### Updating Page:
-<img src = "images2/editoutput.PNG">
+<img src = "https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/images2/editoutput.PNG">
 
 #### Details page :
 * url link = http://127.0.0.1:8000/crud/details/
-<img src = "images2/detailsoutput.PNG">
+<img src = "https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/images2/detailsoutput.PNG">
 
 #### Delete page :
 * Confirmation page :
-<img src = "images2/confirm.PNG">
+<img src = "https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/images2/confirm.PNG">
 * After Deletion :
-<img src = "images2/deleteoutput.PNG">
+<img src = "https://github.com/avinash516/Documentation-web-development/blob/master/images2/deleteoutput.PNG">
 			
 
 		  
