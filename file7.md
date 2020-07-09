@@ -197,3 +197,4 @@ color:pink;
 <img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/Images1/cssoutput.PNG" alt="Templates" width="600" />
 
 <p>In this topic, we have learned the process of managing static files efficiently.</p>
+
