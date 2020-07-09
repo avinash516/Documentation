@@ -22,7 +22,7 @@
 
 <p>You can see that process in this flow-diagram. Also, we can say that static websites are much faster than dynamic websites.</p>
 
-<img src="Images1/staticex.PNG" alt="Templates" width="600"  />
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/Images1/staticex.PNG" alt="Templates" width="600"  />
 
 #### Benefits of Static Files
 <ul>
@@ -35,7 +35,7 @@
 <ul>
 <li>Include the <b>django.contrib.staticfiles</b> in <b>INSTALLED_APPS</b>.</li>
 </ul>
-<img src="Images1/Installedapps.PNG" alt="Templates" width="600"  />
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/Images1/Installedapps.PNG" alt="Templates" width="600"  />
 <ul>
 <li>Define STATIC_URL in settings.py file as given below.</li>
 </ul>
@@ -56,7 +56,7 @@ STATIC_URL = '/static/'
 <li>Store all images, JavaScript, CSS files in a static folder of the application. First create a directory static, store the files inside it. The static Folder is created inside our app i.e <b>firstapp</b></li>
 </ul>
 
-<img src="Images1/creatingstaticfolder.PNG" alt="Templates" width="600"  />
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/Images1/creatingstaticfolder.PNG" alt="Templates" width="600"  />
 
 ### Django Image Loading Example
 
@@ -64,7 +64,7 @@ STATIC_URL = '/static/'
 <li>we have to create Folder or directory inside static Folder i.e <b>images</b>,in that <b>images</b> folder upload some pictures from your local system.</li>
 </ul>
 
-<img src="Images1/imagefolder.PNG" alt="Templates" width="600"  />
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/Images1/imagefolder.PNG" alt="Templates" width="600"  />
 
 <ul>
 <li><b>index.html</b> code</li>
@@ -109,7 +109,7 @@ def index(request):
 <li>Run the server by using <b>python manage.py runserver</b> command,then output look like this.</li>
 </ul>
 
-<img src="Images1/imageoutput.PNG" alt="Templates" width="600"  />
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/Images1/imageoutput.PNG" alt="Templates" width="600"  />
 
 ### Django Loading JavaScript
 
@@ -117,7 +117,7 @@ def index(request):
 <li>we have to create Folder or directory inside static Folder i.e <b>js</b>,in that <b>js</b> folder create a file and name it as <b>mystyle.js</b></li>
 </ul>
 
-<img src="Images1/mystyle.PNG" alt="mystyle" width="600"  />
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/Images1/mystyle.PNG" alt="mystyle" width="600"  />
 
 <ul>
 <li><b>mystyle.js</b> code</li>
@@ -148,7 +148,7 @@ alert("now your are using java script alert")
 </ul>
 
 
-<img src="Images1/jsoutput.PNG" alt="Templates" width="600" />
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/Images1/jsoutput.PNG" alt="Templates" width="600" />
 
 
 > **_NOTE:_** It is not necessary to run the server everytime,because the server is running in background.untill unless you stop the server. 
@@ -159,7 +159,7 @@ alert("now your are using java script alert")
 <li>we have to create Folder or directory inside static Folder i.e <b>css</b>,in that <b>js</b> folder create a file and name it as <b>mystyle.css</b> folder looks like this.</li>
 </ul>
 
-<img src="Images1/cssimage.PNG" alt="cssimage" width="600" />
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/Images1/cssimage.PNG" alt="cssimage" width="600" />
 
 <ul>
 <li><b>mystyle.css</b> code</li>
@@ -194,6 +194,6 @@ color:pink;
 <li>Run the server by using <b>python manage.py runserver</b> command.Then,output look like this.</li>
 </ul>
 
-<img src="Images1/cssoutput.PNG" alt="Templates" width="600" />
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/Images1/cssoutput.PNG" alt="Templates" width="600" />
 
 <p>In this topic, we have learned the process of managing static files efficiently.</p>
