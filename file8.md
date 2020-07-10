@@ -1,4 +1,4 @@
-## Data Rendering From Views to Html in Static
+## Data Rendering From Views to Html
 -----
 ### What is a render?
 
@@ -25,7 +25,6 @@ Render takes upto 6 argumnets i.e, Required arugumnets are 2 Optional arguments 
 > How ever we will use upto 3 argumnets maximum(request,template name,context(dictionary)
 
 **Structure of a Render**
-----
 - First HTTP Request(user request) will forward to urls.py
 - From urls.py if request found then the request is carried to view.py i.e it call's the function
 - Now the function will render to template (html file)
@@ -47,7 +46,6 @@ Let us create a simple template that shows the current date and time as discusse
 For this project i created one application i.e, testapp is my application name and i created one function show inside the views.py, to display output i created one templated called display.html
 
 **urls.py**
-----
 
 ```
 from django.urls import path
@@ -59,7 +57,7 @@ urlpatterns = [
 ```
 
 **Views.py**
-----
+
 - Import datetime module is a mandatory to display the current server time
 -  We are passing dictionary to display.html, data as a key and date as a value
 ```python
@@ -74,7 +72,7 @@ def show(request):
 
 
 **display.html**
-----
+
 - Inside the template tag we are calling data(key) which is coming from the function show in views.py
 ```html
 <!DOCTYPE html>
@@ -93,7 +91,7 @@ def show(request):
 
 
 **Result**
-----
+
 
 <img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/d5.JPG"/>
 
@@ -101,7 +99,7 @@ def show(request):
 
 ## Data rendering from html to views without using forms and models
 
-----
+
 ***Steps as follows***
 
 - Created one application i.e, apssdc is my application name
@@ -110,7 +108,7 @@ def show(request):
 - To display the output create another template
 
 **urls.py**
-----
+
 ```
 from django.urls import path
 from apssdc import views
@@ -120,7 +118,7 @@ urlpatterns = [
 ```
 
 **Views.py**
-----
+
 - We are collecting data with request.POST after passing collected data to result.html
 ```python
 from django.shortcuts import render
@@ -138,7 +136,7 @@ def register(request):
 
 
 **index.html**
-----
+
 
 ```html
 <!DOCTYPE html>
@@ -164,7 +162,7 @@ def register(request):
 
 
 **result.html**
-----
+
 - Inside the template tag calling keys to display the data which came from register function in views.py
 ```html
 
@@ -198,7 +196,7 @@ def register(request):
 
 
 **Result**
-----
+
 
 <img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/d10.JPG"/>
 
