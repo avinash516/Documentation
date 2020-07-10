@@ -53,7 +53,7 @@ the Django forms
 * Django Form Class
 * Django Form Validation
 
-![GitHub Logo](/images3/Djangoforms.jpg)
+![GitHub Logo](https://raw.githubusercontent.com/Prasannarajmallipudi/Formvalidation_Mysql_Migrations/master/images/Djangoforms.jpg)
 
 
 
@@ -123,11 +123,11 @@ Open phpmyadmin page and Create a Database.
 
 DataBase Name : task_reg
 
-![GitHub Logo](/images3/createdb.png)
+![GitHub Logo](https://raw.githubusercontent.com/Prasannarajmallipudi/Formvalidation_Mysql_Migrations/master/images/createdb.png)
 
 And, Click to create button after Created data base
 
-![GitHub Logo](/images3/afterdbcreation.png)
+![GitHub Logo](https://raw.githubusercontent.com/Prasannarajmallipudi/Formvalidation_Mysql_Migrations/master/images/afterdbcreation.png)
 
 ____
 
@@ -172,7 +172,7 @@ and Running the server
 
 After open the ```phpmyadmin``` Page and Table is created and after Registerd form fill the data and click the register button data will be stored in Data Base Table.
 
-![GitHub Logo](/images3/mysqlpage.png)
+![GitHub Logo](https://raw.githubusercontent.com/Prasannarajmallipudi/Formvalidation_Mysql_Migrations/master/images/mysqlpage.png)
 
 
 
