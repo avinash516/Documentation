@@ -1,5 +1,3 @@
-# Django_myDocumentation   ......
-
 
 * **Python web Frameworks :**
   * Django
