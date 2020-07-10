@@ -33,7 +33,7 @@ Render takes upto 6 argumnets i.e, Required arugumnets are 2 Optional arguments 
 
 
 
-<img src="d1.png"/>
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/d1.png"/>
 
 ***Steps to implement render from views to html and html to views***
 
@@ -95,7 +95,7 @@ def show(request):
 **Result**
 ----
 
-<img src="d5.JPG"/>
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/d5.JPG"/>
 
 ----
 
@@ -200,9 +200,9 @@ def register(request):
 **Result**
 ----
 
-<img src="d10.JPG"/>
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/d10.JPG"/>
 
 **After click on submit result shown as follows**
 
-<img src="d11.JPG"/>
+<img src="https://raw.githubusercontent.com/avinash516/Documentation-web-development/master/d11.JPG"/>
 
